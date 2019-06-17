@@ -1,0 +1,38 @@
+.footer {
+    background: #404040;
+    background-image: url('http://siga.frba.utn.edu.ar/imag/grain3.png');
+    background-repeat: repeat;
+    display: block;
+}
+
+.footer-sitemap {
+    display: flex;
+    padding: 20px 0 20px 50px;
+}
+
+.footer-sitemap-column {
+    display: block;
+    margin: 0 30px 0 30px;
+}
+
+.footer-sitemap-title {
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.footer-sitemap-item {
+    color: white;
+}
+
+.footer-sitemap-item:hover {
+    cursor: pointer;
+    color: darkgray;
+}
+
+.footer-copyright-message {
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    color: white;
+}
